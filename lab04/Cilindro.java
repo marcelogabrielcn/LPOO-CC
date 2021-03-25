@@ -7,14 +7,14 @@ public class Cilindro {
     public void setRaioBase (double raioBase){
         this.raioBase = raioBase;
     }
-    public double getRaioBase() {
-        return raioBase;
+    public void getRaioBase() {
+        System.out.println(raioBase);
     }
     public void setAltura (double altura){
         this.altura = altura;
     }
-    public double getAltura() {
-        return altura;
+    public void getAltura() {
+        System.out.println(altura);
     }
 
 }
