@@ -1,5 +1,7 @@
 package AtividadeSemestral02.model;
 
-public class Loja {
+import java.util.ArrayList;
 
+public class Loja {
+    ArrayList<Livro> acervo = new ArrayList<>();
 }
