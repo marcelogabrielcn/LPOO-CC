@@ -1,8 +1,12 @@
 package AtividadeSemestral02.model;
 
-public class Livro {
+public final class Livro extends Produto{
     private String titulo;
 
+    public Livro(int c, int q, double p, String t) {
+        super(c, q, p);
+        setTitulo(t);
+    }
 
     // Getters e Setters
     public String getTitulo() {

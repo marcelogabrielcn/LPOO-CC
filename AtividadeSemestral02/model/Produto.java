@@ -1,10 +1,16 @@
 package AtividadeSemestral02.model;
 
-public class Produto {
+public abstract class Produto {
     private int cod;
     private int qtd;
     private double preco;
 
+    // Metodo Construtor
+    public Produto(int c, int q, double p){
+        setCod(c);
+        setQtd(q);
+        setPreco(p);
+    }
 
     // Getters e Setters
     public int getCod() {
